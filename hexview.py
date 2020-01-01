@@ -64,7 +64,6 @@ if pargs.c:
 elif not pargs.c:
     colors = [37 for i in range(7)]
 if pargs.f:
-    header = ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09", "0A", "0B", "0C", "0D", "0E", "0F"]
     if pargs.f == "csv":
         rs = roundu(len(data), 1, 16)
         i = 0
