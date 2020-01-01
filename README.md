@@ -4,7 +4,7 @@ hexview is a command line hex viewer, outputting either to the terminal or a for
 
 ### Requirements
 
-* >= Python 3.7
+* Python 3.7 or later
 * A terminal that supports ANSI escape codes / colors if terminal output is desired
 
 ### Help
