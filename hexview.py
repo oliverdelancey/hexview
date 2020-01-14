@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""hexview v2.00 Copyright Oliver Sandli 2020"""
+"""hexview v2.00 @ Oliver Sandli 2020"""
 
 import argparse
 import shutil
