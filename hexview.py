@@ -17,7 +17,7 @@ def roundu(x: int, y: int, z: int) -> int:
 parser = argparse.ArgumentParser(
     add_help=True,
     formatter_class=argparse.RawTextHelpFormatter,
-    description="hexview v2.00 Copyright Oliver Sandli 2020"
+    description="hexview v2.00 @ Oliver Sandli 2020"
     )
 parser.add_argument(
     "file",
