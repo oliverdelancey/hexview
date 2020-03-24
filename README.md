@@ -2,7 +2,7 @@
 
 hexview is a command line hex viewer, outputting either to the terminal or a formatted table.
 
-### Sample Terminal Output
+## Sample Terminal Output
 
 with `-g` option.
 
@@ -24,13 +24,21 @@ with `-g` option.
 └────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴───┘
 ```
 
-### Requirements
+## Requirements
 
 * Python 3.6 or later (3.5 for type hints, 3.6 for f strings)
 
 * A terminal that supports ANSI escape codes / colors if terminal output is desired
 
-### Help
+## Installation
+
+1. Clone:
+```bash
+git clone https://github.com/oliversandli/hexview
+```
+2. Put `hexview.py` in directory of choice.
+
+## Help
 
 Run for help:
 ```bash
