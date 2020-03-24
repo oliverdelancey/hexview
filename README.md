@@ -36,3 +36,22 @@ Run for help:
 ```bash
 python hexview.py -h
 ```
+```
+usage: hexview.py [-h] [-g] [-c] [-f F] [-d] file
+
+hexview v2.00 @ Oliver Sandli 2020
+
+positional arguments:
+  file        Input file name.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -g          Enable grid lines.
+  -c          Enable color.
+  -f F        Output file in format of choice.
+                      csv
+                      html
+                      markdown
+                      txt
+  -d          Enable debug output (currently inactive).
+```
